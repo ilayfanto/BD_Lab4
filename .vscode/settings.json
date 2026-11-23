@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "pgsql.connections": [
+        {
+            "id": "ddos-lab4-local",
+            "profileName": "ddos_lab4 (localhost)",
+            "server": "localhost",
+            "port": "5432",
+            "database": "ddos_lab4",
+            "user": "postgres",
+            "password": "",
+            "authenticationType": "SqlLogin",
+            "applicationName": "vscode-pgsql"
+        }
+    ]
+}
